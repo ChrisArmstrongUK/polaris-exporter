@@ -1,0 +1,21 @@
+{{- if .Values.rules.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: {{ include "polaris-exporter.fullname" . }}
+spec:
+  groups:
+    - name: {{ include "polaris-exporter.fullname" . }}
+      rules:
+        - alert: PolarisScoreHasChanged
+          expr: 'changes(polaris_overall_score_percentage[1m]) > 0'
+          annotations:
+            description: |
+              Polaris Score has changed
+            dashboard: 'none'
+            summary: 'Polaris Score has changed'
+          labels:
+            severity: info
+{{- end }}
+
+
