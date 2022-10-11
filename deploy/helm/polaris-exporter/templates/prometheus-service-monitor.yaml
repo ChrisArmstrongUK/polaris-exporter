@@ -1,0 +1,20 @@
+{{- if .Values.serviceMonitor.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ include "polaris-exporter.fullname" . }}
+  labels:
+    {{- include "polaris-exporter.labels" . | nindent 4 }}
+    prometheus: local
+spec:
+  jobLabel: {{ include "polaris-exporter.fullname" . }}
+  selector:
+    matchLabels:
+      {{- include "polaris-exporter.selectorLabels" . | nindent 6 }}
+  endpoints:
+    - path: /metrics
+      interval: {{ .Values.serviceMonitor.interval }}
+      targetPort: {{ .Values.exporter.httpPort }}
+      honorLabels: {{ .Values.exporter.honorLabels }}
+      scrapeTimeout: {{ .Values.serviceMonitor.scrapeTimeout }}
+{{- end }}
