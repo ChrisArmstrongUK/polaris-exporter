@@ -1,0 +1,2257 @@
+{
+  "PolarisOutputVersion": "1.0",
+  "AuditTime": "2022-10-07T13:09:43Z",
+  "SourceType": "Cluster",
+  "SourceName": "https://10.43.0.1:443",
+  "DisplayName": "https://10.43.0.1:443",
+  "ClusterInfo": {
+    "Version": "1.24",
+    "Nodes": 1,
+    "Pods": 0,
+    "Namespaces": 5,
+    "Controllers": 8
+  },
+  "Results": [
+    {
+      "Name": "kube-root-ca.crt",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "boundary-config",
+      "Namespace": "default",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "coredns",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "kube-root-ca.crt",
+      "Namespace": "default",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "kube-root-ca.crt",
+      "Namespace": "kube-public",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "chart-values-traefik-crd",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "kube-root-ca.crt",
+      "Namespace": "kube-node-lease",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "chart-values-traefik",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "local-path-config",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "chart-content-traefik-crd",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "kube-root-ca.crt",
+      "Namespace": "polaris",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "chart-content-traefik",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "extension-apiserver-authentication",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "cluster-dns",
+      "Namespace": "kube-system",
+      "Kind": "ConfigMap",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "pod-garbage-collector",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "ttl-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "daemon-set-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "disruption-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "attachdetach-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "ephemeral-volume-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "service-account-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "polaris",
+      "Namespace": "polaris",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "job-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "replicaset-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "endpointslice-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "endpointslicemirroring-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "endpoint-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "resourcequota-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "coredns",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "node-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "clusterrole-aggregation-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "default",
+      "Namespace": "default",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "default",
+      "Namespace": "polaris",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "generic-garbage-collector",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "traefik",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "persistent-volume-binder",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "statefulset-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "deployment-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "default",
+      "Namespace": "kube-public",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "metrics-server",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "root-ca-cert-publisher",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "certificate-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "ttl-after-finished-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "pv-protection-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "replication-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "pvc-protection-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "default",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "local-path-provisioner-service-account",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "namespace-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "cronjob-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "horizontal-pod-autoscaler",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "helm-traefik",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "helm-traefik-crd",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "expand-controller",
+      "Namespace": "kube-system",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "default",
+      "Namespace": "kube-node-lease",
+      "Kind": "ServiceAccount",
+      "Results": {},
+      "PodResult": null,
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "helm-install-traefik",
+      "Namespace": "kube-system",
+      "Kind": "Job",
+      "Results": {},
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "helm",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem should be read only",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "helm-install-traefik-crd",
+      "Namespace": "kube-system",
+      "Kind": "Job",
+      "Results": {},
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "helm",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem should be read only",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "metrics-server",
+      "Namespace": "kube-system",
+      "Kind": "Deployment",
+      "Results": {
+        "deploymentMissingReplicas": {
+          "ID": "deploymentMissingReplicas",
+          "Message": "Only one replica is scheduled",
+          "Details": null,
+          "Success": false,
+          "Severity": "warning",
+          "Category": "Reliability",
+          "Mutations": null,
+          "Comments": null
+        }
+      },
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "metrics-server",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem is read only",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation not allowed",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Is not allowed to run as root",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "local-path-provisioner",
+      "Namespace": "kube-system",
+      "Kind": "Deployment",
+      "Results": {
+        "deploymentMissingReplicas": {
+          "ID": "deploymentMissingReplicas",
+          "Message": "Only one replica is scheduled",
+          "Details": null,
+          "Success": false,
+          "Severity": "warning",
+          "Category": "Reliability",
+          "Mutations": null,
+          "Comments": null
+        }
+      },
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "local-path-provisioner",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem should be read only",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "polaris-dashboard",
+      "Namespace": "polaris",
+      "Kind": "Deployment",
+      "Results": {
+        "deploymentMissingReplicas": {
+          "ID": "deploymentMissingReplicas",
+          "Message": "Only one replica is scheduled",
+          "Details": null,
+          "Success": false,
+          "Severity": "warning",
+          "Category": "Reliability",
+          "Mutations": null,
+          "Comments": null
+        }
+      },
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "dashboard",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container does not have any insecure capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation not allowed",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy is \"Always\"",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Is not allowed to run as root",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "coredns",
+      "Namespace": "kube-system",
+      "Kind": "Deployment",
+      "Results": {
+        "deploymentMissingReplicas": {
+          "ID": "deploymentMissingReplicas",
+          "Message": "Only one replica is scheduled",
+          "Details": null,
+          "Success": false,
+          "Severity": "warning",
+          "Category": "Reliability",
+          "Mutations": null,
+          "Comments": null
+        }
+      },
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "coredns",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container does not have any insecure capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests are set",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem is read only",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation not allowed",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "traefik",
+      "Namespace": "kube-system",
+      "Kind": "Deployment",
+      "Results": {
+        "deploymentMissingReplicas": {
+          "ID": "deploymentMissingReplicas",
+          "Message": "Only one replica is scheduled",
+          "Details": null,
+          "Success": false,
+          "Severity": "warning",
+          "Category": "Reliability",
+          "Mutations": null,
+          "Comments": null
+        }
+      },
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "traefik",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container does not have any dangerous capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port is not configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container does not have any insecure capabilities",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem is read only",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe is configured",
+                "Details": null,
+                "Success": true,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Is not allowed to run as root",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    },
+    {
+      "Name": "svclb-traefik-d3b4e0ef",
+      "Namespace": "kube-system",
+      "Kind": "DaemonSet",
+      "Results": {},
+      "PodResult": {
+        "Name": "",
+        "Results": {
+          "hostIPCSet": {
+            "ID": "hostIPCSet",
+            "Message": "Host IPC is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostNetworkSet": {
+            "ID": "hostNetworkSet",
+            "Message": "Host network is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          },
+          "hostPIDSet": {
+            "ID": "hostPIDSet",
+            "Message": "Host PID is not configured",
+            "Details": null,
+            "Success": true,
+            "Severity": "danger",
+            "Category": "Security",
+            "Mutations": null,
+            "Comments": null
+          }
+        },
+        "ContainerResults": [
+          {
+            "Name": "lb-tcp-80",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container should not have dangerous capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port should not be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem should be read only",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/0/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          },
+          {
+            "Name": "lb-tcp-443",
+            "Results": {
+              "cpuLimitsMissing": {
+                "ID": "cpuLimitsMissing",
+                "Message": "CPU limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "cpuRequestsMissing": {
+                "ID": "cpuRequestsMissing",
+                "Message": "CPU requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "dangerousCapabilities": {
+                "ID": "dangerousCapabilities",
+                "Message": "Container should not have dangerous capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "hostPortSet": {
+                "ID": "hostPortSet",
+                "Message": "Host port should not be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "insecureCapabilities": {
+                "ID": "insecureCapabilities",
+                "Message": "Container should not have insecure capabilities",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "livenessProbeMissing": {
+                "ID": "livenessProbeMissing",
+                "Message": "Liveness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryLimitsMissing": {
+                "ID": "memoryLimitsMissing",
+                "Message": "Memory limits should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "memoryRequestsMissing": {
+                "ID": "memoryRequestsMissing",
+                "Message": "Memory requests should be set",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Efficiency",
+                "Mutations": null,
+                "Comments": null
+              },
+              "notReadOnlyRootFilesystem": {
+                "ID": "notReadOnlyRootFilesystem",
+                "Message": "Filesystem should be read only",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "privilegeEscalationAllowed": {
+                "ID": "privilegeEscalationAllowed",
+                "Message": "Privilege escalation should not be allowed",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "pullPolicyNotAlways": {
+                "ID": "pullPolicyNotAlways",
+                "Message": "Image pull policy should be \"Always\"",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": [
+                  {
+                    "op": "add",
+                    "path": "/spec/template/spec/containers/1/imagePullPolicy",
+                    "value": "Always"
+                  }
+                ],
+                "Comments": null
+              },
+              "readinessProbeMissing": {
+                "ID": "readinessProbeMissing",
+                "Message": "Readiness probe should be configured",
+                "Details": null,
+                "Success": false,
+                "Severity": "warning",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsPrivileged": {
+                "ID": "runAsPrivileged",
+                "Message": "Not running as privileged",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "runAsRootAllowed": {
+                "ID": "runAsRootAllowed",
+                "Message": "Should not be allowed to run as root",
+                "Details": null,
+                "Success": false,
+                "Severity": "danger",
+                "Category": "Security",
+                "Mutations": null,
+                "Comments": null
+              },
+              "tagNotSpecified": {
+                "ID": "tagNotSpecified",
+                "Message": "Image tag is specified",
+                "Details": null,
+                "Success": true,
+                "Severity": "danger",
+                "Category": "Reliability",
+                "Mutations": null,
+                "Comments": null
+              }
+            }
+          }
+        ]
+      },
+      "CreatedTime": "0001-01-01T00:00:00Z"
+    }
+  ],
+  "Score": 66
+}
